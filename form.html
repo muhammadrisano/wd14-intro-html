@@ -1,0 +1,66 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>belajar membuat form</title>
+    <style>
+    label{
+      display: block;
+      margin-top: 10px;
+      margin-bottom: 6px;
+    }
+    </style>
+  </head>
+  <body>
+    <h1>form register</h1>
+    <form>
+      <div>
+        <label for="fullname">Full Name :</label>
+        <input type="text" placeholder="Nama Lengkap" id="fullname" />
+      </div>
+      <div>
+        <label>Email :
+        <input type="email" placeholder="Email Anda" />
+      </label>
+      </div>
+      <div>
+        <label>Password: </label>
+        <input type="password" placeholder="Password Anda">
+      </div>
+      <div>
+        <label>Tanggal Lahir: </label>
+        <input type="date" placeholder="Tanggal Lahir">
+      </div>
+      <div>
+        <label>Upload Document</label>
+        <input type="file">
+      </div>
+      <div>
+        <label>Jenis Kelamin</label>
+        <input type="radio" name="jender" value="laki-laki">laki-laki
+        <input type="radio" name="jender" value="perempuan"> Perempuan
+      </div>
+      <div>
+        <label>Alamat Lengkap</label>
+        <textarea placeholder="alaman lengkap anda" cols="40" rows="4"></textarea>
+      </div>
+      <div>
+        <label>Pendidikan Terakhir</label>
+        <select name="">
+          <option value="sd">SD</option>
+          <option value="smp">SMP</option>
+          <option value="sma">SMA</option>
+          <option value="s1">S1</option>
+          <option value="s2">S2</option>
+          <option value="s3">S3</option>
+        </select>
+      </div>
+
+      <div>
+        <button type="submit">Simpan</button>
+        <button type="reset">Reset</button>
+      </div>
+    </form>
+  </body>
+</html>
